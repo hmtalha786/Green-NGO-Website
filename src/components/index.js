@@ -1,5 +1,3 @@
-/** @format */
-
 import React from "react";
 import { HeaderSection } from "./headerSection";
 import { Navigation } from "./navigation";
@@ -11,7 +9,7 @@ import { FooterSection } from "./footerSection";
 
 const index = () => {
 	return (
-		<>
+		<div>
 			<div>
 				<Navigation />
 			</div>
@@ -33,10 +31,7 @@ const index = () => {
 			<div className="footer_section" id="footer_section">
 				<FooterSection />
 			</div>
-			<footer className="text-center bg-success text-light">
-				@Rida Rafi Syed
-			</footer>
-		</>
+		</div>
 	);
 };
 

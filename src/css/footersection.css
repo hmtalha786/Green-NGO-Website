@@ -1,11 +1,5 @@
-/** @format */
-
 .footer {
 	padding: 2rem;
-}
-.important-link li {
-	display: block;
-	text-decoration: none;
 }
 .nav-link a {
 	color: white;

@@ -1,5 +1,3 @@
-/** @format */
-
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
 import "../css/headerSection.css";

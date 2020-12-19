@@ -1,8 +1,5 @@
-/** @format */
-
 import React, { useState, useEffect } from "react";
 import logo from "../images/logo.png";
-
 import "../css/navigation.css";
 
 export const Navigation = () => {
