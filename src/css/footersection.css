@@ -1,0 +1,26 @@
+/** @format */
+
+.footer {
+	padding: 2rem;
+}
+.important-link li {
+	display: block;
+	text-decoration: none;
+}
+.nav-link a {
+	color: white;
+	text-decoration: none;
+}
+.nav-link a:hover {
+	color: darkgreen;
+	text-decoration: none;
+}
+.social-media li {
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 2rem;
+}
+
+.social-media li:hover {
+	color: darkgreen;
+}
