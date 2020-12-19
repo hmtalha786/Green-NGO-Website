@@ -12,7 +12,7 @@ export const Footer = () => {
 	const textLeftTiming = {
 		duration: 3000,
 		iterations: 1,
-		delay: 6000,
+		delay: 7000,
 		easing: "ease-out",
 	};
 	const textEffect = useWebAnimations({

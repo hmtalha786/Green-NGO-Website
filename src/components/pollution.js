@@ -9,8 +9,9 @@ export const Pollution = () => {
 		{ transform: "translateX(0px)", opacity: 1 },
 	];
 	const textUpTiming = {
-		duration: 1000,
+		duration: 3000,
 		iterations: 1,
+		delay: 3000,
 		easing: "ease-out",
 	};
 	const text = useWebAnimations({
