@@ -1,9 +1,9 @@
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
-import "../css/headerSection.css";
+import "../css/header.css";
 import Grid from "@material-ui/core/Grid";
 
-export const HeaderSection = () => {
+export const Breathe = () => {
 	const textLeftFrame = [
 		{ transform: "translateX(-200px)", opacity: 0 },
 		{ transform: "translateX(0px)", opacity: 1 },
@@ -25,7 +25,6 @@ export const HeaderSection = () => {
 			{ transform: "translateX(30%)" },
 		],
 		timing: {
-			// easing: "steps(8, end)",
 			direction: "reverse",
 			duration: 8000,
 			playbackRate: 1,
@@ -38,7 +37,6 @@ export const HeaderSection = () => {
 			{ transform: "translateX(40%)" },
 		],
 		timing: {
-			// easing: "steps(8, end)",
 			direction: "reverse",
 			duration: 6000,
 			playbackRate: 1,
@@ -51,7 +49,6 @@ export const HeaderSection = () => {
 			{ transform: "translateX(45%)" },
 		],
 		timing: {
-			// easing: "steps(8, end)",
 			direction: "reverse",
 			duration: 12000,
 			playbackRate: 1,
@@ -1504,14 +1501,21 @@ ZGSOr4Ssqy94CVOYNQd1bkdi6hFQAwxpHdoiuA0Uc/zdP/4X/9k="
 				</div>
 				<Grid container spacing={3}>
 					<Grid item xs={12}>
-						<div className="col col-sm-6 mx-auto">
+						<div className="col col-sm-6 ml-5">
 							<div ref={text1.ref}>
 								<h1 className="display-3 text-center">Let's Breathe!</h1>
+								<br />
 								<p className="lead text-center">
-									Plant More Trees <br />
-									<br />
-									<button className="btn btn-success ">Click Here</button>
+									<strong>"The true meaning of life is to plant trees, under whose shade you do not expect to sit."</strong>
 								</p>
+								<p className="lead text-center">
+									Our goal is to plant 100+ Million trees, so that we can breathe in air, not under the masks.
+								</p>
+								<br />
+								<p className="lead text-center">
+									<button className="btn btn-success ">Plant More Trees</button>
+								</p>
+								<br/><br/><br/><br/><br/>
 							</div>
 						</div>
 					</Grid>

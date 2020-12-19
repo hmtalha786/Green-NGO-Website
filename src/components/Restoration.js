@@ -1,12 +1,9 @@
-/** @format */
-
 import React from "react";
 import { Grid } from "@material-ui/core";
 import useWebAnimations from "@wellyshen/use-web-animations";
+import "../css/restoration.css";
 
-import "../css/fourthSection.css";
-
-export const FourthSection = () => {
+export const Restoration = () => {
 	const textLeftFrame = [
 		{ transform: "translateX(-200px)", opacity: 0 },
 		{ transform: "translateX(0px)", opacity: 1 },
@@ -60,19 +57,12 @@ export const FourthSection = () => {
 	return (
 		<>
 			<Grid container className="row align-content-center">
-				<Grid
-					item
-					xs={12}
-					sm={12}
-					className="col col-sm-12"
-					ref={textEffect.ref}
-				>
+				<Grid item xs={12} sm={12} className="col col-sm-12" ref={textEffect.ref}>
 					<h1 className="display-3 text-center">
 						Togather we can Restore Our Planet
 					</h1>
 					<p className="lead text-center">
-						Give your Children a green future. The Beauty of Nature is
-						everywhere
+						Give your Children a green future. The Beauty of Nature is everywhere.
 					</p>
 				</Grid>
 				<Grid item xs={12} sm={12} className="col col-sm-12">

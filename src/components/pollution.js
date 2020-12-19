@@ -1,11 +1,9 @@
-/** @format */
-
 import React from "react";
 import useWebAnimations from "@wellyshen/use-web-animations";
 import Grid from "@material-ui/core/Grid";
-import "../css/pollutionsection.css";
+import "../css/pollution.css";
 
-export const PollutionSection = () => {
+export const Pollution = () => {
 	const textUpFrame = [
 		{ transform: "translateX(100px)", opacity: 0 },
 		{ transform: "translateX(0px)", opacity: 1 },
@@ -15,15 +13,7 @@ export const PollutionSection = () => {
 		iterations: 1,
 		easing: "ease-out",
 	};
-	const text1 = useWebAnimations({
-		keyframes: textUpFrame,
-		timing: textUpTiming,
-	});
-	const text2 = useWebAnimations({
-		keyframes: textUpFrame,
-		timing: textUpTiming,
-	});
-	const text3 = useWebAnimations({
+	const text = useWebAnimations({
 		keyframes: textUpFrame,
 		timing: textUpTiming,
 	});
@@ -756,16 +746,16 @@ export const PollutionSection = () => {
 						</defs>
 					</svg>
 				</Grid>
-				<Grid item xs={12} sm={6} className="col col-md-6 leftSide">
-					<h1 className="display-3 text-center" ref={text1.ref}>
-						Pollution Free Envirnment
+				<Grid item xs={12} sm={6} className="col col-md-6 leftSide" ref={text.ref}>
+					<h1 className="display-3 text-center" >
+						Pollution Free Environment
 					</h1>
-					<p className="lead text-center" ref={text2.ref}>
+					<p className="lead text-center">
 						Low Carban, more trees, efficent way to make a city, natural sources
 						for power...
 						<br />
 						<br />
-						<button className="btn btn-success" ref={text3.ref}>
+						<button className="btn btn-success">
 							Learn More
 						</button>
 					</p>

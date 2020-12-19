@@ -1,16 +1,16 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import useWebAnimations from "@wellyshen/use-web-animations";
-import "../css/footersection.css";
+import "../css/footer.css";
 
-export const FooterSection = () => {
+export const Footer = () => {
 	const textLeftFrame = [
 		{ transform: "translateY(100px)", opacity: 0 },
 		{ transform: "translateY(0px)", opacity: 1 },
 	];
 
 	const textLeftTiming = {
-		duration: 3600,
+		duration: 3000,
 		iterations: 1,
 		delay: 6000,
 		easing: "ease-out",
@@ -22,6 +22,14 @@ export const FooterSection = () => {
 	return (
 		<div className="footer">
 			<Grid container className="row align-items-left" ref={textEffect.ref}>
+				<Grid item xs={12} sm={12} className="col col-sm-12 mb-5">
+					<div className="col col-sm-12">
+						<h1 className="display-3 text-center">Go For Green Vitality</h1>
+						<p className="lead text-center qoutations">
+							Trees don't boost WiFi signals, but they boost life.
+					</p>
+					</div>
+				</Grid>
 				<Grid item xs={12} sm={4} className="col col-sm-4 mt-2 ml-5">
 					<h1 className="ml-3">Our Mission</h1>
 					<p className="text-justify ml-3">

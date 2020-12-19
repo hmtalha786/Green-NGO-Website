@@ -1,11 +1,9 @@
 import React from "react";
-import { HeaderSection } from "./headerSection";
+import { Breathe } from "./Breathe";
 import { Navigation } from "./navigation";
-import { PollutionSection } from "./pollutionSection";
-import { SecSection } from "./secSection";
-import { FourthSection } from "./fourthSection";
-import { GrowingPlant } from "./growingPlant";
-import { FooterSection } from "./footerSection";
+import { Pollution } from "./pollution";
+import { Restoration } from "./Restoration";
+import { Footer } from "./footer";
 
 const index = () => {
 	return (
@@ -13,23 +11,17 @@ const index = () => {
 			<div>
 				<Navigation />
 			</div>
-			<div className="main_section" id="main_section">
-				<HeaderSection />
+			<div className="main_section" id="Breathe">
+				<Breathe />
 			</div>
-			<div className="sec_section" id="sec_section">
-				<SecSection />
+			<div className="third_section" id="Pollution">
+				<Pollution />
 			</div>
-			<div className="growing_plant_section" id="growing_plant">
-				<GrowingPlant />
+			<div className="fourth_section" id="Restoration">
+				<Restoration />
 			</div>
-			<div className="fourth_section" id="fourth_section">
-				<FourthSection />
-			</div>
-			<div className="third_section" id="third_section">
-				<PollutionSection />
-			</div>
-			<div className="footer_section" id="footer_section">
-				<FooterSection />
+			<div className="footer_section" id="Footer">
+				<Footer />
 			</div>
 		</div>
 	);

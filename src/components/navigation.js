@@ -42,8 +42,7 @@ export const Navigation = () => {
 				>
 					<i className="fas fa-leaf"></i>
 				</button>
-				<a className="navbar-brand" href="#main_section">
-					GO Green
+				<a className="navbar-brand" href="#Breathe">
 					<img
 						src={logo}
 						width="30"
@@ -51,39 +50,28 @@ export const Navigation = () => {
 						className="d-inline-block align-top"
 						alt=""
 						loading="lazy"
-					/>
+					/> Green
 				</a>
 
 				<div className="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul className="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li className="nav-item active">
-							<a className="nav-link" href="#main_section">
+							<a className="nav-link" href="#Breathe">
 								Let's Breathe
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#sec_section">
-								Green Vitality
+							<a className="nav-link" href="#Pollution">
+								Green City
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#growing_plant">
-								Plant Seeds
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#fourth_section">
+							<a className="nav-link" href="#Restoration">
 								Restoration
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#third_section">
-								Green City Solution
-							</a>
-						</li>
-
-						<li className="nav-item">
-							<a className="nav-link" href="#footer_section">
+							<a className="nav-link" href="#Footer">
 								Contact us
 							</a>
 						</li>
